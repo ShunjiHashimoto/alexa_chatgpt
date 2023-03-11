@@ -1,6 +1,6 @@
 # alexa_chatgpt
-アレクサとchatgpt使って雑談
-https://twitter.com/23232871hashimo/status/1632344063965036544?s=20  
+アレクサとChatGPT使って雑談  
+https://twitter.com/23232871hashimo/status/1632344063965036544?s=20    
 ## 設定
 ### Alexa Developer Console
 アレクサにスキルを登録します。  
