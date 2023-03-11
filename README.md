@@ -19,7 +19,10 @@ https://twitter.com/23232871hashimo/status/1632344063965036544?s=20
 ### AWS Lambda  
 Lambda関数を作り、その関数をAlexa Developer Consoleから呼び出します。   
 Lambda関数の作成方法は、[公式ドキュメント](https://docs.aws.amazon.com/ja_jp/lambda/latest/dg/getting-started.html)を参考にしてください。  
-下記は、lambda関数で外部モジュールを利用したい場合の設定方法です。  
+今回の場合は、本パッケージにあるsrc/lambda_functionをコピーして、先ほど作成したlambda関数に貼り付けてください。  
+このとき、openai.api_keyは自分のapi_keyを設定する必要があります。
+api_keyの取得方法は[こちら](https://thedeveloperspace.com/how-to-invoke-openai-apis-from-aws-lambda-functions/)を参考にしてください。  
+また下記は、lambda関数で外部モジュールを利用したい場合の設定方法です。  
 
 #### lambda関数のレイヤー設定
 OpenAI、ask_sdk_coreそれぞれをローカルにインストール後、zipファイルに圧縮し、その圧縮されたファイルをレイヤーに登録します。  
