@@ -1,5 +1,6 @@
 # alexa_chatgpt
 アレクサとChatGPT使って雑談  
+![alexa](https://github.com/ShunjiHashimoto/alexa_chatgpt/blob/main/docs/images/alexa.PNG?raw=true)
 https://twitter.com/23232871hashimo/status/1632344063965036544?s=20    
 ## 設定
 ### Alexa Developer Console
